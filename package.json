@@ -1,0 +1,29 @@
+{
+  "name": "wantit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjirou/npm-wantit"
+  },
+  "main": "index.js",
+  "description": "Execute \"require\" without MODULE_NOT_FOUND error",
+  "version": "0.0.1",
+  "author": "kjirou",
+  "keywords": [
+    "require",
+    "requirement"
+  ],
+  "engines": {
+    "node": ">=0.10 <0.12"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jshint": "2.5.5",
+    "mocha": "1.21.4"
+  },
+  "scripts": {
+    "ci": "mocha",
+    "jshint": "jshint index.js lib/wantit.js test/tests.js",
+    "test": "mocha && npm run jshint"
+  }
+}
