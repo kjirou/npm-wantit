@@ -12,7 +12,7 @@ var wantit = require('wantit');
 var util = wantit('util');
 
 // Error is not occured, it returns null
-var moduleNotExist = wantit('module_not_exist');
+var moduleNotFound = wantit('module_not_found');
 ```
 
 
